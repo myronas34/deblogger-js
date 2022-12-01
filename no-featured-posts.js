@@ -1,9 +1,9 @@
 // Disable featured posts on other posts
 let isPost;
 let FeaturedPosts;
-isPost = document.getElementsByClassname("post-view");
+isPost = document.getElementsByClassName("post-view");
   if (isPost > 0) {
-    FeaturedPosts = document.getElementsByClassname("FeaturedPost");
+    FeaturedPosts = document.getElementsByClassName("FeaturedPost");
     for (let i = 0; i < Features.length; i++) {
       Features[i].style.display = "none";
     }
